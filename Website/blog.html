@@ -1733,7 +1733,7 @@
           overallscore: 80
       }
       data.table.push(obj);
-      sessionStorage.setItem("loneliness", JSON.stringify(obj));
+      sessionStorage.setItem("result", JSON.stringify(obj));
     });
 
     $("#btn2").click(function() {
@@ -1766,35 +1766,15 @@
         test2dresult += parseInt(test2danswer[i]);
       }
 
-      var data1 = {}
-      data1.table = []
-      var obj1 = {
-          test: 2,
-          score: test2aresult,
-          overallscore: 21
+      var data = {}
+      data.table = []
+      var obj = {
+          test: [2,3,4,],
+          score: [test2aresult, test2sresult, test2dresult],
+          overallscore: 21,
       }
-      data1.table.push(obj1);
-      sessionStorage.setItem("anxiety", JSON.stringify(obj1));
-
-      var data2 = {}
-      data2.table = []
-      var obj2 = {
-          test: 3,
-          score: test2dresult,
-          overallscore: 21
-      }
-      data2.table.push(obj2);
-      sessionStorage.setItem("depression", JSON.stringify(obj2));
-
-      var data3 = {}
-      data3.table = []
-      var obj3 = {
-          test: 4,
-          score: test2sresult,
-          overallscore: 21
-      }
-      data3.table.push(obj3);
-      sessionStorage.setItem("stress", JSON.stringify(obj3));
+      data.table.push(obj);
+      sessionStorage.setItem("result", JSON.stringify(obj));
     });
 
     $("#btn3").click(function() {
@@ -1834,68 +1814,12 @@
       var data = {}
       data.table = []
       var obj = {
-          test: 3,
+          test: 5,
           score: test3result,
           overallscore: 54
       }
       data.table.push(obj);
-      sessionStorage.setItem("suicide", JSON.stringify(obj));
-    });
-
-    $('#btn1, #btn2, #btn3').click(function () {
-      if (this.id == 'btn1') {
-        var data = {}
-        data.table = []
-        var obj = {
-            test: 3,
-            score: test3result,
-            overallscore: 54
-        }
-        data.table.push(obj);
-        sessionStorage.setItem("suicide", JSON.stringify(obj));
-      }
-      else if (this.id == 'btn2') {
-        var data1 = {}
-        data1.table = []
-        var obj1 = {
-            test: 2,
-            score: test2aresult,
-            overallscore: 21
-        }
-        data1.table.push(obj1);
-        sessionStorage.setItem("anxiety", JSON.stringify(obj1));
-
-        var data2 = {}
-        data2.table = []
-        var obj2 = {
-            test: 3,
-            score: test2dresult,
-            overallscore: 21
-        }
-        data2.table.push(obj2);
-        sessionStorage.setItem("depression", JSON.stringify(obj2));
-
-        var data3 = {}
-        data3.table = []
-        var obj3 = {
-            test: 4,
-            score: test2sresult,
-            overallscore: 21
-        }
-        data3.table.push(obj3);
-        sessionStorage.setItem("stress", JSON.stringify(obj3));
-      }
-      else {
-        var data = {}
-        data.table = []
-        var obj = {
-            test: 3,
-            score: test3result,
-            overallscore: 54
-        }
-        data.table.push(obj);
-        sessionStorage.setItem("suicide", JSON.stringify(obj));
-      }
+      sessionStorage.setItem("result", JSON.stringify(obj));
     });
 });
 </script>
