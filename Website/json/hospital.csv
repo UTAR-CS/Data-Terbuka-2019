@@ -1,0 +1,57 @@
+BIL,NEGERI,HOSPITAL,ALAMAT,BANDAR,NO. TELEFON,NO. FAX,"WAKTU OPERASI 
+(HARI BEKERJA)"
+1,Perlis,Hospital Tuanku Fauziah,"Jalan Kolam, 01000",Kangar,04-9738000,04-9767237,8.00 pagi - 5.00 petang
+2,Perak,Hospital Slim River,Slim River,Perak,05-4508000,05-4508002,8.00 pagi - 5.00 petang
+3,Perak,Hospital Teluk Intan,Jalan Changkat Jong,Teluk Intan,05-6218400,05-6212415,8.30 pagi - 5.30 petang
+4,Perak,Hospital Raja Permaisuri Bainun,Jalan Hospital,Ipoh,05-2085000,05-2531541,8.00 pagi - 5.00 petang
+5,Perak,Hospital Taiping,Jalan Taming Sari,Taiping,05-820 4000,05-807 3894,8.00 pagi - 5.00 petang 
+6,Perak,Hospital Seri Manjung,Seri Manjung,Seri Manjung,05-6896600,05-6884013,8.00 pagi - 5.00 petang 
+7,Perak,Hospital Bahagia Ulu Kinta,Tanjong Rambutan,Ulu Kinta,05-5332333,05-5331350,8.00 pagi - 5.00 petang 
+8,Pulau Pinang,Hospital Bukit Mertajam,"Jalan Kulim, Bukit Mertajam",Bukit Mertajam,04-5497333,04-5497299,8.00 pagi - 5.00 petang
+9,Pulau Pinang,Hospital Seberang Jaya,"Jln Tun Hussein Onn, Perai",Perai,04-3827333,04-3970754,8.00 pagi - 5.00 petang
+10,Pulau Pinang,Hospital Pulau Pinang,Jalan Residensi,Pulau Pinang,04-2225333,04-2281737,8.00 pagi - 5.00 petang
+11,Kedah,Hospital Sultanah Bahiyah,"KM 6, Jln Langgar",Alor Setar,04-7406233,04-7350232,8.00 pagi - 5.00 petang
+12,Kedah,Hospital Sultan Abdul Halim,"Jalan Lencongan Timur Bandar Amanjaya, Sungai Petani",Sungai Petani,04-4457333,04-4480092,8.00 pagi - 5.00 petang
+13,Selangor,Hospital Selayang,Lebuhraya Selayang-Kepong,Batu Caves,03 - 6136 7788,03 - 6137 709,8.00 pagi - 5.00 petang
+14,Selangor,Hospital Sungai Buloh,Jalan Hospital,Sungai Buluh,03-61454333,03-61454222,8.00 pagi - 5.00 petang
+15,Selangor,Hospital Ampang,Jalan Mewah Utara,Ampang,03-4289 6000,03-4295 4666,8.00 pagi - 5.00 petang
+16,Selangor,Hospital Kajang,Jalan Semenyih,Kajang,03-8913 3333,03-8736 7527,8.00 pagi - 5.00 petang
+17,Selangor,Hospital Tengku Ampuan Rahimah,"Jalan Langat,41200",Klang,03-3375 7000,03-3372 9089,8.00 pagi - 5.00 petang
+18,Selangor,Hospital Banting,Jalan Sultan Alam Shah,Banting,03-3187 1333,03-3181 8834,8.00 pagi - 5.00 petang
+19,Selangor,Hospital Serdang,Jalan Puchong,Kajang,03-8947 5555,03-8947 5050,8.00 pagi - 5.00 petang
+20,Selangor,Hospital Shah Alam,"Persiaran Kayangan, Seksyen 7",Shah Alam,03-5526 3000,03-5526 3202,8.00 pagi - 5.00 petang
+21,WP Kuala Lumpur,Hospital Kuala Lumpur,Jalan Pahang,Kuala Lumpur,03-26155555,03-26989845,8.00 pagi - 5.00 petang
+22,WP Kuala Lumpur,Hospital Rehabilitasi Cheras,"Jalan Yaacob Latif, Bandar Tun Razak",Kuala Lumpur,03-9145 3400,03-9130 0560,8.00 pagi- 5.00 petang
+23,WP Putrajaya,Hospital Putrajaya,"Pusat Pentadbiran Kerajaan Persekutuan, presint 7",Putrajaya,03-83124200,03-88880137,8.00 pagi - 5.00 petang
+24,Negeri Sembilan,Hospital Tuanku Ampuan Najihah,KM 3 Jalan Melang,Kuala Pilah,06 - 4818 002,06 - 4818 010,8.00 pagi - 5.00 petang
+25,Negeri Sembilan,Hospital Port Dickson,"KM 11, Jalan Pantai",Port Dickson,06-648 7333,06-662 5003,8.00 pagi - 5.00 petang
+26,Negeri Sembilan,Hospital Tuanku Ja'afar Seremban,Jalan Rasah,Seremban,06-768 4000,06-762 5771,8.00 pagi - 5.00 petang
+27,Melaka,Hospital Melaka,Jalan Mufti Haji Khalil,Melaka,06-2892344,06-2841590,8.30 pagi-5.30 petang
+28,Johor,Hospital Sultanah Nora Ismail,"Jalan Korma,83000 Batu Pahat",Batu Pahat,07-4363000,07-4322554,8.00 pagi - 5.00 petang
+29,Johor,Hospital Sultanah Aminah,Johor Bahru,Johor Bahru,07-225 7000,07-2242694,8.00 pagi - 5.00 petang
+30,Johor,Hospital Sultan Ismail,"Jalan Persiaran Mutiara Emas Utama, Taman Miount Austin",Johor Bahru,07-3565000,07-356 5076,8.00 pagi - 5.00 petang
+31,Johor,"Hospital Enche' Besar Hajjah Kalsom, Kluang","KM 5, Jln Kota Tinggi",Kluang,07-7787000,07-7787128,8.00 pagi - 5.00 petang
+32,Johor,Hospital Kota Tinggi,Jalan Tun Habah,Kota Tinggi,07-883 1131 ,07-883 1333,8.00 pagi - 5.00 petang
+33,Johor,Hospital Pakar Sultanah Fatimah,Jalan Salleh,Muar,06-9564000,06-9526003,7.30 pagi - 4.30 petang
+34,Johor,Hospital Segamat,"KM 6 Jalan Genuang,",Segamat,07-943 3333,07-943 4641,8.00 pagi - 5.00 petang
+35,Johor,Hospital Permai Johor Bahru,Jalan Persiaran Kempas Baru,Johor Bahru,07-2311000,07-2366897,8.00 pagi - 5.00 petang
+36,Pahang,Hospital Tengku Ampuan Afzan,Jalan Air Putih,Kuantan,09-5133333,09-5142712,8.00 pagi - 5.00 petang
+37,Pahang,Hospital Kuala Lipis,27200 K.Lipis,Kuala Lipis,09-3123333,09-3121787,8.00 pagi - 5.00 petang
+38,Pahang,Hospital Sultan Hj Ahmad Shah,Jalan Maran,Temerloh,09-2955333,09-2972468,8.00 pagi -5.00 Petang
+39,Terengganu,Hospital Kemaman,"Jalan Da' Omar, Cukai",Kemaman,09-8513333,09-8595512,8.00 pagi - 5.00 petang
+40,Terengganu,Hospital Sultanah Nur Zahirah,Jalan Sultan Mahmud,Kuala Terengganu,09-6212121,09-6221820,8.00 pagi - 5.00 petang
+41,Kelantan,Hospital Raja Perempuan Zainab II,Jalan Hospital,Kota Bharu,09-7452000,09-7486951,8.00 pagi - 5.00 petang
+42,Kelantan,Hospital Kuala Krai,Jalan Kota Bharu,Kuala Krai,09-9666 333,09-9666 076,8.00 pagi - 5.00 petang
+43,Kelantan,Hospital Pasir Mas,Jalan Meranti,Pasir Mas,09 - 7909 333,09 - 7900 996,8.00 pagi - 5.00 petang
+44,Kelantan,Hospital Tanah Merah,17500 Tanah Merah,Tanah Merah,09-9545000,09-9557929,8.00 pagi - 5.00 petang
+45,Sarawak,Hospital Bintulu,Jalan Nyabau,Bintulu,086-859000,086-255866,8.00 pagi - 5.00 petang
+46,Sarawak,Hospital Umum Kuching,Jalan Tun Ahmad Zaidi Adruce,Kuching,082-276666,082-242751,8.00 pagi -  5.00 petang
+47,Sarawak,Hospital Miri,Jalan Cahaya,Miri,085-420033,085-416514,8.00 pagi - 5.00 petang
+48,Sarawak,Hospital Sibu,"Batu 5 ?, Jalan Ulu Oya",Sibu,084 - 343 333,084 - 337 354,8.00 pagi - 5.00 petang
+49,Sarawak ,Hospital Sentosa,"Batu 7, jalan Penrissen",Kuching,082-612321,082-610495,8.00 pagi - 5.00 petang
+50,Sabah,Hospital Queen Elizabeth II,"Lorong Bersatu, Jalan Damai Luyang",Kota Kinabalu,088-324600,088-272454,8.00 pagi - 5.00 petang
+51,Sabah,Hospital Queen Elizabeth,Karung Berkunci N0.2029,Kota Kinabalu,088-517555,088-211999,8.00 pagi - 5.00 petang
+52,Sabah,Hospital Wanita dan Kanak-Kanak Sabah,Karung Berkunci 187,Kota Kinabalu,088-522600,088-438512,8.00 pagi - 5.00 petang
+53,Sabah,Hospital Lahad Datu,Peti Surat 60065,Lahad Datu,089-895111,089-884670,8.00 pagi - 5.00 petang
+54,Sabah,Hospital Duchess Of Kent,"KM 3.2, Jalan Utara",Sandakan,089 - 248 600,089 - 213 607,8.00 pagi - 5.00 petang
+55,Sabah,Hospital Tawau,Peti Surat 80,Tawau,089 - 773 533,089 - 778 626,8.00 pagi - 5.00 petang

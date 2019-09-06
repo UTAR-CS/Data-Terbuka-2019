@@ -1,0 +1,552 @@
+[
+  {
+    "BIL": 1,
+    "NEGERI": "Perlis",
+    "HOSPITAL": "Hospital Tuanku Fauziah",
+    "ALAMAT": "Jalan Kolam, 01000",
+    "BANDAR": "Kangar",
+    "NO. TELEFON": "04-9738000",
+    "NO. FAX": "04-9767237",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 2,
+    "NEGERI": "Perak",
+    "HOSPITAL": "Hospital Slim River",
+    "ALAMAT": "Slim River",
+    "BANDAR": "Perak",
+    "NO. TELEFON": "05-4508000",
+    "NO. FAX": "05-4508002",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 3,
+    "NEGERI": "Perak",
+    "HOSPITAL": "Hospital Teluk Intan",
+    "ALAMAT": "Jalan Changkat Jong",
+    "BANDAR": "Teluk Intan",
+    "NO. TELEFON": "05-6218400",
+    "NO. FAX": "05-6212415",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.30 pagi - 5.30 petang"
+  },
+  {
+    "BIL": 4,
+    "NEGERI": "Perak",
+    "HOSPITAL": "Hospital Raja Permaisuri Bainun",
+    "ALAMAT": "Jalan Hospital",
+    "BANDAR": "Ipoh",
+    "NO. TELEFON": "05-2085000",
+    "NO. FAX": "05-2531541",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 5,
+    "NEGERI": "Perak",
+    "HOSPITAL": "Hospital Taiping",
+    "ALAMAT": "Jalan Taming Sari",
+    "BANDAR": "Taiping",
+    "NO. TELEFON": "05-820 4000",
+    "NO. FAX": "05-807 3894",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 6,
+    "NEGERI": "Perak",
+    "HOSPITAL": "Hospital Seri Manjung",
+    "ALAMAT": "Seri Manjung",
+    "BANDAR": "Seri Manjung",
+    "NO. TELEFON": "05-6896600",
+    "NO. FAX": "05-6884013",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 7,
+    "NEGERI": "Perak",
+    "HOSPITAL": "Hospital Bahagia Ulu Kinta",
+    "ALAMAT": "Tanjong Rambutan",
+    "BANDAR": "Ulu Kinta",
+    "NO. TELEFON": "05-5332333",
+    "NO. FAX": "05-5331350",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 8,
+    "NEGERI": "Pulau Pinang",
+    "HOSPITAL": "Hospital Bukit Mertajam",
+    "ALAMAT": "Jalan Kulim, Bukit Mertajam",
+    "BANDAR": "Bukit Mertajam",
+    "NO. TELEFON": "04-5497333",
+    "NO. FAX": "04-5497299",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 9,
+    "NEGERI": "Pulau Pinang",
+    "HOSPITAL": "Hospital Seberang Jaya",
+    "ALAMAT": "Jln Tun Hussein Onn, Perai",
+    "BANDAR": "Perai",
+    "NO. TELEFON": "04-3827333",
+    "NO. FAX": "04-3970754",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 10,
+    "NEGERI": "Pulau Pinang",
+    "HOSPITAL": "Hospital Pulau Pinang",
+    "ALAMAT": "Jalan Residensi",
+    "BANDAR": "Pulau Pinang",
+    "NO. TELEFON": "04-2225333",
+    "NO. FAX": "04-2281737",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 11,
+    "NEGERI": "Kedah",
+    "HOSPITAL": "Hospital Sultanah Bahiyah",
+    "ALAMAT": "KM 6, Jln Langgar",
+    "BANDAR": "Alor Setar",
+    "NO. TELEFON": "04-7406233",
+    "NO. FAX": "04-7350232",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 12,
+    "NEGERI": "Kedah",
+    "HOSPITAL": "Hospital Sultan Abdul Halim",
+    "ALAMAT": "Jalan Lencongan Timur Bandar Amanjaya, Sungai Petani",
+    "BANDAR": "Sungai Petani",
+    "NO. TELEFON": "04-4457333",
+    "NO. FAX": "04-4480092",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 13,
+    "NEGERI": "Selangor",
+    "HOSPITAL": "Hospital Selayang",
+    "ALAMAT": "Lebuhraya Selayang-Kepong",
+    "BANDAR": "Batu Caves",
+    "NO. TELEFON": "03 - 6136 7788",
+    "NO. FAX": "03 - 6137 709",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 14,
+    "NEGERI": "Selangor",
+    "HOSPITAL": "Hospital Sungai Buloh",
+    "ALAMAT": "Jalan Hospital",
+    "BANDAR": "Sungai Buluh",
+    "NO. TELEFON": "03-61454333",
+    "NO. FAX": "03-61454222",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 15,
+    "NEGERI": "Selangor",
+    "HOSPITAL": "Hospital Ampang",
+    "ALAMAT": "Jalan Mewah Utara",
+    "BANDAR": "Ampang",
+    "NO. TELEFON": "03-4289 6000",
+    "NO. FAX": "03-4295 4666",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 16,
+    "NEGERI": "Selangor",
+    "HOSPITAL": "Hospital Kajang",
+    "ALAMAT": "Jalan Semenyih",
+    "BANDAR": "Kajang",
+    "NO. TELEFON": "03-8913 3333",
+    "NO. FAX": "03-8736 7527",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 17,
+    "NEGERI": "Selangor",
+    "HOSPITAL": "Hospital Tengku Ampuan Rahimah",
+    "ALAMAT": "Jalan Langat,41200",
+    "BANDAR": "Klang",
+    "NO. TELEFON": "03-3375 7000",
+    "NO. FAX": "03-3372 9089",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 18,
+    "NEGERI": "Selangor",
+    "HOSPITAL": "Hospital Banting",
+    "ALAMAT": "Jalan Sultan Alam Shah",
+    "BANDAR": "Banting",
+    "NO. TELEFON": "03-3187 1333",
+    "NO. FAX": "03-3181 8834",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 19,
+    "NEGERI": "Selangor",
+    "HOSPITAL": "Hospital Serdang",
+    "ALAMAT": "Jalan Puchong",
+    "BANDAR": "Kajang",
+    "NO. TELEFON": "03-8947 5555",
+    "NO. FAX": "03-8947 5050",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 20,
+    "NEGERI": "Selangor",
+    "HOSPITAL": "Hospital Shah Alam",
+    "ALAMAT": "Persiaran Kayangan, Seksyen 7",
+    "BANDAR": "Shah Alam",
+    "NO. TELEFON": "03-5526 3000",
+    "NO. FAX": "03-5526 3202",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 21,
+    "NEGERI": "Kuala Lumpur",
+    "HOSPITAL": "Hospital Kuala Lumpur",
+    "ALAMAT": "Jalan Pahang",
+    "BANDAR": "Kuala Lumpur",
+    "NO. TELEFON": "03-26155555",
+    "NO. FAX": "03-26989845",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 22,
+    "NEGERI": "Kuala Lumpur",
+    "HOSPITAL": "Hospital Rehabilitasi Cheras",
+    "ALAMAT": "Jalan Yaacob Latif, Bandar Tun Razak",
+    "BANDAR": "Kuala Lumpur",
+    "NO. TELEFON": "03-9145 3400",
+    "NO. FAX": "03-9130 0560",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi- 5.00 petang"
+  },
+  {
+    "BIL": 23,
+    "NEGERI": "Putrajaya",
+    "HOSPITAL": "Hospital Putrajaya",
+    "ALAMAT": "Pusat Pentadbiran Kerajaan Persekutuan, presint 7",
+    "BANDAR": "Putrajaya",
+    "NO. TELEFON": "03-83124200",
+    "NO. FAX": "03-88880137",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 24,
+    "NEGERI": "Negeri Sembilan",
+    "HOSPITAL": "Hospital Tuanku Ampuan Najihah",
+    "ALAMAT": "KM 3 Jalan Melang",
+    "BANDAR": "Kuala Pilah",
+    "NO. TELEFON": "06 - 4818 002",
+    "NO. FAX": "06 - 4818 010",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 25,
+    "NEGERI": "Negeri Sembilan",
+    "HOSPITAL": "Hospital Port Dickson",
+    "ALAMAT": "KM 11, Jalan Pantai",
+    "BANDAR": "Port Dickson",
+    "NO. TELEFON": "06-648 7333",
+    "NO. FAX": "06-662 5003",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 26,
+    "NEGERI": "Negeri Sembilan",
+    "HOSPITAL": "Hospital Tuanku Ja'afar Seremban",
+    "ALAMAT": "Jalan Rasah",
+    "BANDAR": "Seremban",
+    "NO. TELEFON": "06-768 4000",
+    "NO. FAX": "06-762 5771",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 27,
+    "NEGERI": "Melaka",
+    "HOSPITAL": "Hospital Melaka",
+    "ALAMAT": "Jalan Mufti Haji Khalil",
+    "BANDAR": "Melaka",
+    "NO. TELEFON": "06-2892344",
+    "NO. FAX": "06-2841590",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.30 pagi-5.30 petang"
+  },
+  {
+    "BIL": 28,
+    "NEGERI": "Johor",
+    "HOSPITAL": "Hospital Sultanah Nora Ismail",
+    "ALAMAT": "Jalan Korma,83000 Batu Pahat",
+    "BANDAR": "Batu Pahat",
+    "NO. TELEFON": "07-4363000",
+    "NO. FAX": "07-4322554",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 29,
+    "NEGERI": "Johor",
+    "HOSPITAL": "Hospital Sultanah Aminah",
+    "ALAMAT": "Johor Bahru",
+    "BANDAR": "Johor Bahru",
+    "NO. TELEFON": "07-225 7000",
+    "NO. FAX": "07-2242694",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 30,
+    "NEGERI": "Johor",
+    "HOSPITAL": "Hospital Sultan Ismail",
+    "ALAMAT": "Jalan Persiaran Mutiara Emas Utama, Taman Miount Austin",
+    "BANDAR": "Johor Bahru",
+    "NO. TELEFON": "07-3565000",
+    "NO. FAX": "07-356 5076",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 31,
+    "NEGERI": "Johor",
+    "HOSPITAL": "Hospital Enche' Besar Hajjah Kalsom",
+    "ALAMAT": "KM 5, Jln Kota Tinggi",
+    "BANDAR": "Kluang",
+    "NO. TELEFON": "07-7787000",
+    "NO. FAX": "07-7787128",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 32,
+    "NEGERI": "Johor",
+    "HOSPITAL": "Hospital Kota Tinggi",
+    "ALAMAT": "Jalan Tun Habah",
+    "BANDAR": "Kota Tinggi",
+    "NO. TELEFON": "07-883 1131",
+    "NO. FAX": "07-883 1333",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 33,
+    "NEGERI": "Johor",
+    "HOSPITAL": "Hospital Pakar Sultanah Fatimah",
+    "ALAMAT": "Jalan Salleh",
+    "BANDAR": "Muar",
+    "NO. TELEFON": "06-9564000",
+    "NO. FAX": "06-9526003",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "7.30 pagi - 4.30 petang"
+  },
+  {
+    "BIL": 34,
+    "NEGERI": "Johor",
+    "HOSPITAL": "Hospital Segamat",
+    "ALAMAT": "KM 6 Jalan Genuang,",
+    "BANDAR": "Segamat",
+    "NO. TELEFON": "07-943 3333",
+    "NO. FAX": "07-943 4641",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 35,
+    "NEGERI": "Johor",
+    "HOSPITAL": "Hospital Permai Johor Bahru",
+    "ALAMAT": "Jalan Persiaran Kempas Baru",
+    "BANDAR": "Johor Bahru",
+    "NO. TELEFON": "07-2311000",
+    "NO. FAX": "07-2366897",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 36,
+    "NEGERI": "Pahang",
+    "HOSPITAL": "Hospital Tengku Ampuan Afzan",
+    "ALAMAT": "Jalan Air Putih",
+    "BANDAR": "Kuantan",
+    "NO. TELEFON": "09-5133333",
+    "NO. FAX": "09-5142712",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 37,
+    "NEGERI": "Pahang",
+    "HOSPITAL": "Hospital Kuala Lipis",
+    "ALAMAT": "27200 K.Lipis",
+    "BANDAR": "Kuala Lipis",
+    "NO. TELEFON": "09-3123333",
+    "NO. FAX": "09-3121787",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 38,
+    "NEGERI": "Pahang",
+    "HOSPITAL": "Hospital Sultan Hj Ahmad Shah",
+    "ALAMAT": "Jalan Maran",
+    "BANDAR": "Temerloh",
+    "NO. TELEFON": "09-2955333",
+    "NO. FAX": "09-2972468",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi -5.00 Petang"
+  },
+  {
+    "BIL": 39,
+    "NEGERI": "Terengganu",
+    "HOSPITAL": "Hospital Kemaman",
+    "ALAMAT": "Jalan Da' Omar, Cukai",
+    "BANDAR": "Kemaman",
+    "NO. TELEFON": "09-8513333",
+    "NO. FAX": "09-8595512",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 40,
+    "NEGERI": "Terengganu",
+    "HOSPITAL": "Hospital Sultanah Nur Zahirah",
+    "ALAMAT": "Jalan Sultan Mahmud",
+    "BANDAR": "Kuala Terengganu",
+    "NO. TELEFON": "09-6212121",
+    "NO. FAX": "09-6221820",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 41,
+    "NEGERI": "Kelantan",
+    "HOSPITAL": "Hospital Raja Perempuan Zainab II",
+    "ALAMAT": "Jalan Hospital",
+    "BANDAR": "Kota Bharu",
+    "NO. TELEFON": "09-7452000",
+    "NO. FAX": "09-7486951",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 42,
+    "NEGERI": "Kelantan",
+    "HOSPITAL": "Hospital Kuala Krai",
+    "ALAMAT": "Jalan Kota Bharu",
+    "BANDAR": "Kuala Krai",
+    "NO. TELEFON": "09-9666 333",
+    "NO. FAX": "09-9666 076",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 43,
+    "NEGERI": "Kelantan",
+    "HOSPITAL": "Hospital Pasir Mas",
+    "ALAMAT": "Jalan Meranti",
+    "BANDAR": "Pasir Mas",
+    "NO. TELEFON": "09 - 7909 333",
+    "NO. FAX": "09 - 7900 996",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 44,
+    "NEGERI": "Kelantan",
+    "HOSPITAL": "Hospital Tanah Merah",
+    "ALAMAT": "17500 Tanah Merah",
+    "BANDAR": "Tanah Merah",
+    "NO. TELEFON": "09-9545000",
+    "NO. FAX": "09-9557929",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 45,
+    "NEGERI": "Sarawak",
+    "HOSPITAL": "Hospital Bintulu",
+    "ALAMAT": "Jalan Nyabau",
+    "BANDAR": "Bintulu",
+    "NO. TELEFON": "086-859000",
+    "NO. FAX": "086-255866",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 46,
+    "NEGERI": "Sarawak",
+    "HOSPITAL": "Hospital Umum Kuching",
+    "ALAMAT": "Jalan Tun Ahmad Zaidi Adruce",
+    "BANDAR": "Kuching",
+    "NO. TELEFON": "082-276666",
+    "NO. FAX": "082-242751",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi -  5.00 petang"
+  },
+  {
+    "BIL": 47,
+    "NEGERI": "Sarawak",
+    "HOSPITAL": "Hospital Miri",
+    "ALAMAT": "Jalan Cahaya",
+    "BANDAR": "Miri",
+    "NO. TELEFON": "085-420033",
+    "NO. FAX": "085-416514",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 48,
+    "NEGERI": "Sarawak",
+    "HOSPITAL": "Hospital Sibu",
+    "ALAMAT": "Batu 5 ?, Jalan Ulu Oya",
+    "BANDAR": "Sibu",
+    "NO. TELEFON": "084 - 343 333",
+    "NO. FAX": "084 - 337 354",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 49,
+    "NEGERI": "Sarawak",
+    "HOSPITAL": "Hospital Sentosa",
+    "ALAMAT": "Batu 7, jalan Penrissen",
+    "BANDAR": "Kuching",
+    "NO. TELEFON": "082-612321",
+    "NO. FAX": "082-610495",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 50,
+    "NEGERI": "Sabah",
+    "HOSPITAL": "Hospital Queen Elizabeth II",
+    "ALAMAT": "Lorong Bersatu, Jalan Damai Luyang",
+    "BANDAR": "Kota Kinabalu",
+    "NO. TELEFON": "088-324600",
+    "NO. FAX": "088-272454",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 51,
+    "NEGERI": "Sabah",
+    "HOSPITAL": "Hospital Queen Elizabeth",
+    "ALAMAT": "Karung Berkunci N0.2029",
+    "BANDAR": "Kota Kinabalu",
+    "NO. TELEFON": "088-517555",
+    "NO. FAX": "088-211999",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 52,
+    "NEGERI": "Sabah",
+    "HOSPITAL": "Hospital Wanita dan Kanak-Kanak Sabah",
+    "ALAMAT": "Karung Berkunci 187",
+    "BANDAR": "Kota Kinabalu",
+    "NO. TELEFON": "088-522600",
+    "NO. FAX": "088-438512",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 53,
+    "NEGERI": "Sabah",
+    "HOSPITAL": "Hospital Lahad Datu",
+    "ALAMAT": "Peti Surat 60065",
+    "BANDAR": "Lahad Datu",
+    "NO. TELEFON": "089-895111",
+    "NO. FAX": "089-884670",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 54,
+    "NEGERI": "Sabah",
+    "HOSPITAL": "Hospital Duchess Of Kent",
+    "ALAMAT": "KM 3.2, Jalan Utara",
+    "BANDAR": "Sandakan",
+    "NO. TELEFON": "089 - 248 600",
+    "NO. FAX": "089 - 213 607",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  },
+  {
+    "BIL": 55,
+    "NEGERI": "Sabah",
+    "HOSPITAL": "Hospital Tawau",
+    "ALAMAT": "Peti Surat 80",
+    "BANDAR": "Tawau",
+    "NO. TELEFON": "089 - 773 533",
+    "NO. FAX": "089 - 778 626",
+    "WAKTU OPERASI \n(HARI BEKERJA)": "8.00 pagi - 5.00 petang"
+  }
+]
