@@ -80,8 +80,15 @@ $(function()
       $(".help-text").append("Skor " + test_type + " anda adalah normal, anda mempunyai status mental yang sihat. Tahniah!");
       $(".help-text").append("<br><br><p class='news-text'>Di bawah merupakan beberapa berita atau artikel tentang " + test_type + ". Anda boleh mengetahui lebih dengan melawat link tersebut</p>");
 
+      var url_title_query;
+
+      if(session_result["test"].length == 3)
+        url_title_query = Math.ceil((Math.random() * 3) + 1);
+      else
+        url_title_query = session_result["test"];
+
       var url = 'https://newsapi.org/v2/everything?' +
-                'qInTitle=' + to_english(session_result["test"]) + '&' +
+                'qInTitle=' + to_english(url_title_query) + '&' +
                 'sortBy=popularity&' +
                 'apiKey=dc5c322ae4684614872e8dd7b4d1ece9';
 
