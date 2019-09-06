@@ -133,6 +133,20 @@
     outline-color: red !important;
   }
 
+  .news-heading {
+    font-size: 0.8em;
+    color: black !important;
+  }
+
+  .news-heading:hover {
+    text-decoration: underline;
+    color: purple !important;
+  }
+
+  .news-text {
+    color: rgb(212, 139, 30);
+  }
+
   th {
     font-size: 1.5em;
     font-weight: bold;
