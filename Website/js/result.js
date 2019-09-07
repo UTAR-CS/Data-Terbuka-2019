@@ -11,8 +11,9 @@ $(function()
     // Variable for specifying which test user has taken
     var test_type;
 
-    // Variable for specifying the most serious score of test attempted
+    // Variable for specifying the most serious score and test name attempted
     var higest_score = 0;
+    var highest_test_type;
 
     // Default state
     var state = "Kuala Lumpur"
@@ -41,7 +42,10 @@ $(function()
       for (var i = 0; i < 3; i++)
       {
         if(higest_score < session_result["score"][i])
+        {
           higest_score = session_result["score"][i];
+          highest_test_type = to_malay(session_result["test"][i]);
+        }
 
         display_result(session_result["test"][i], session_result["score"][i], session_result["overallscore"]);
       }
@@ -49,6 +53,7 @@ $(function()
     else
     {
       test_type = to_malay(session_result["test"]);
+      highest_test_type = test_type;
       $(".result_title").append("Keputusan Ujian " + test_type + " Anda");
 
       higest_score = session_result["score"];
@@ -83,14 +88,14 @@ $(function()
       if(distress)
       {
         $(".distress-button").append('<a href="' + send_distress(counter) + '" class="btn btn-primary d-block px-3 py-3 mb-4 distress" style="display: none !important">Butang Kecemasan</a>');
-        $(".distress-text").append('Memerlukan bantaun sekarang? Tekanlah butang kecemasan');
+        $(".distress-text").append('Memerlukan bantaun sekarang? Tekanlah butang kecemasan<br>Ia akan menghantar e-mel dengan lokasi anda ke hospital yang terdekat');
       }
 
       // Check if user has high scoring and display hospitals in the state
       if(serious)
       {
         counter();
-        $(".help-text").append("Anda mempunyai skor " + test_type + " yang merisaukan. Di bawah merupakan beberapa saluran bantuan yang anda boleh hubungi")
+        $(".help-text").append("Anda mempunyai skor " + test_type + " yang merisaukan. Di bawah merupakan beberapa hospital yang anda boleh hubungi<br>E-mel akan dihantar ke hospital dengan skor " + test_type + " anda");
 
         var table_header =  '<div class="col-md-12 ftco-animate fadeInUp ftco-animated">' +
                             '<div class="table-responsive">' +
@@ -396,7 +401,7 @@ $(function()
 
     var recepient = 'dataterbuka@mampu.gov.my';
     var subject = 'Tolong! Bantuan mental amat Diperlukan!';
-    var body =  'Saya telah membuat test ' + test_type + ' di laman <Psyco-Pass>%0d%0a%0d%0a' +
+    var body =  'Saya telah membuat test ' + highest_test_type + ' di laman <Psyco-Pass>%0d%0a%0d%0a' +
                 'Saya mendapat skor ' + higest_score + '/' + session_result["overallscore"] + '%0d%0a' +
                 'Skor tersebut amat tinggi dan merisaukan saya. Saya amat memerlukan bantuan mental sekarang.%0d%0a' +
                 'Lokasi saya ialah: ' +
@@ -416,7 +421,7 @@ $(function()
 
     var recepient = 'dataterbuka@mampu.gov.my';
     var subject = 'Saya ingin memdapatkan bantuan mental';
-    var body =  'Saya telah membuat test ' + test_type + ' di laman <Psyco-Pass>%0d%0a%0d%0a' +
+    var body =  'Saya telah membuat test ' + highest_test_type + ' di laman <Psyco-Pass>%0d%0a%0d%0a' +
                 'Saya mendapat skor ' + higest_score + '/' + session_result["overallscore"] + '%0d%0a' +
                 'Skor tersebut merisaukan saya. Saya ingin mendapatkan bantuan daripada pihak anda.%0d%0a' +
                 'Lokasi saya ialah: ' +
