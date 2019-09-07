@@ -502,7 +502,7 @@ $(function()
   }
 
   // function of custom section counter
-  var counter = function() {
+  function counter () {
 		
 		$('#section-counter-custom').waypoint( function() {
 
