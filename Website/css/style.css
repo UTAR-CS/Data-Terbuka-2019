@@ -7629,7 +7629,7 @@ h1, h2, h3, h4, h5,
             .owl-carousel.home-slider .slider-item .slider-text .breadcrumbs span a {
               color: #fff; }
       .owl-carousel.home-slider .slider-item.bread-item {
-        height: 300px !important; }
+        height: 400px !important; }
         @media (max-width: 1199.98px) {
           .owl-carousel.home-slider .slider-item.bread-item {
             background-position: center center !important; } }
