@@ -216,7 +216,7 @@
                           <div class="text">
                             <p class="mb-5" name="testing">1. Saya dapati diri saya sukar ditenteramkan</p>
                             <p class="name">Jawapan anda:</p>
-                              <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                              <div class="btn-group btn-group-toggle" data-toggle="buttons" class="test">
                                 <label class="btn btn-success">
                                   <input type="radio" name="test2sq1" value="0"> Tidak langsung<br>
                                 </label>
@@ -791,6 +791,12 @@
     document.getElementById("myDropdown2").classList.toggle("show2");
   }
   window.onclick = function(event) {
+    if (!event.target.matches('.test')) {
+      if($("input[name*='test2']:checked").val().length == 1) {
+      $("#test2").carousel("next");
+      }
+    }
+
     if (!event.target.matches('.dropbtn2')) {
       var dropdowns = document.getElementsByClassName("dropdown-content2");
       var i;
