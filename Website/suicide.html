@@ -212,7 +212,7 @@
                             <p class="mb-1"><b><u>KEINGINAN KEPADA KEMATIAN</u></b></p>
                             <p class="mb-5">1. Selama satu atau dua hari yang lalu, adakah anda berfikir keinginan kepada mati? Adakah anda mahu mati sekarang?</p>
                             <p class="name">Jawapan anda:</p>
-                              <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                              <div class="btn-group btn-group-toggle" data-toggle="buttons" class="test">
                                 <label class="btn btn-success">
                                   <input type="radio" name="test3q1" value="0"> Tidak langsung<br>
                                 </label>
@@ -747,6 +747,12 @@
     document.getElementById("myDropdown3").classList.toggle("show3");
   }
   window.onclick = function(event) {
+    if (!event.target.matches('.test')) {
+      if($("input[name*='test3q']:checked").val().length == 1) {
+      $("#test3").carousel("next");
+      }
+    }
+
     if (!event.target.matches('.dropbtn3')) {
       var dropdowns = document.getElementsByClassName("dropdown-content3");
       var i;
