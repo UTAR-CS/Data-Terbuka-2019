@@ -34,91 +34,83 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
 
   <style>
-    .custom {
-      border: 1px solid #2D383A !important;
-      font-weight: bold;
-      background: rgba(244, 54, 1, 1) !important;
-      background: -moz-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
-      background: -webkit-gradient(left bottom, right top, color-stop(0%, #00468C), color-stop(100%, #2887C8)) !important;
-      background: -webkit-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
-      background: -o-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
-      background: -ms-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
-      background: linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
-    }
+      .custom {
+          margin: auto;
+          border: 1px solid #2D383A !important;
+          font-weight: bold;
+          background: rgba(244,54,1,1) !important;
+          background: -moz-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
+          background: -webkit-gradient(left bottom, right top, color-stop(0%, #00468C), color-stop(100%, #2887C8)) !important;
+          background: -webkit-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
+          background: -o-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
+          background: -ms-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
+          background: linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
+        }
+        
+        .custom:hover {
+          margin: auto;
+          color: #00468C !important;
+          font-weight: bold !important;
+          background: white !important;
+          outline-color: blue !important;
+        }
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        /* Dropdown Button */
+        .dropbtn3 {
+          background-color: #3498DB;
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+          cursor: pointer;
+        }
+        /* Dropdown button on hover & focus */
+        .dropbtn3:hover, .dropbtn:focus {
+          background-color: #2980B9;
+        }
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown3 {
+          margin: auto;
+          position: relative;
+          display: inline-block;
+        }
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content3 {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+          overflow-y: scroll;
+          height: 300px;
+        }
+        /* Links inside the dropdown */
+        .dropdown-content3 a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+        /* Change color of dropdown links on hover */
+        .dropdown-content3 a:hover {background-color: #ddd}
+        /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+        .show3 {display:block;}
 
-    .custom:hover {
-      color: #00468C !important;
-      font-weight: bold !important;
-      background: white !important;
-      outline-color: blue !important;
-    }
+        .text {
+          color: #FFFFFF;
+          font-size: 22px;
+        }
 
-    /* Make the image fully responsive */
-    .carousel-inner img {
-      width: 100%;
-      height: 100%;
-    }
-
-    /* Dropdown Button */
-    .dropbtn3 {
-      background-color: #3498DB;
-      color: white;
-      padding: 16px;
-      font-size: 16px;
-      border: none;
-      cursor: pointer;
-    }
-
-    /* Dropdown button on hover & focus */
-    .dropbtn3:hover,
-    .dropbtn:focus {
-      background-color: #2980B9;
-    }
-
-    /* The container <div> - needed to position the dropdown content */
-    .dropdown3 {
-      position: relative;
-      display: inline-block;
-      width: 400px;
-      margin-left: 45%;
-      margin-right: 45%;
-    }
-
-    /* Dropdown Content (Hidden by Default) */
-    .dropdown-content3 {
-      display: none;
-      position: absolute;
-      background-color: #f1f1f1;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-      z-index: 1;
-      overflow-y: scroll;
-      height: 300px;
-    }
-
-    /* Links inside the dropdown */
-    .dropdown-content3 a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-    }
-
-    /* Change color of dropdown links on hover */
-    .dropdown-content3 a:hover {
-      background-color: #ddd
-    }
-
-    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-    .show3 {
-      display: block;
-    }
-
-    .text {
-      color: #FFFFFF;
-      font-size: 22px;
-    }
-  </style>
+        .element-to-center{
+          text-align: center;
+        }
+        </style>
 </head>
 
 <body>
@@ -163,7 +155,7 @@
   </nav>
   <!-- END nav -->
 
-  <section class="home-slider owl-carousel">
+  <section class="home-slider owl-carousel disable-scroll">
     <div class="slider-item bread-item" style="background-image: url(images/bg_1.jpg);"
       data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
@@ -179,7 +171,7 @@
     </div>
   </section>
 
-  <section class="ftco-section testimony-section">
+  <section class="ftco-section testimony-section element-to-center">
     <div class="container">
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
@@ -810,7 +802,10 @@
     }
   }
   $(document).ready(function () {
-    $("#btn3").click(function () {
+
+    $(".disable-scroll").css({"pointer-events": "none"});
+
+    $("#btn3").click(function() {
       var flag3 = [];
       var counter = 0;
       for (var i = 1; i < 19; i++) {
