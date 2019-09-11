@@ -34,6 +34,7 @@
 
     <style>
       .custom {
+          margin: auto;
           border: 1px solid #2D383A !important;
           font-weight: bold;
           background: rgba(244,54,1,1) !important;
@@ -46,6 +47,7 @@
         }
         
         .custom:hover {
+          margin: auto;
           color: #00468C !important;
           font-weight: bold !important;
           background: white !important;
@@ -72,11 +74,9 @@
         }
         /* The container <div> - needed to position the dropdown content */
         .dropdown3 {
+          margin: auto;
           position: relative;
           display: inline-block;
-          width:400px;
-          margin-left: 45%;
-          margin-right: 45%;
         }
         /* Dropdown Content (Hidden by Default) */
         .dropdown-content3 {
@@ -104,6 +104,10 @@
         .text {
           color: #FDD7E4;
           font-size: 22px;
+        }
+
+        .element-to-center{
+          text-align: center;
         }
         </style>
   </head>
@@ -160,7 +164,7 @@
     </section>
 
       <section class="ftco-section testimony-section">
-        <div class="container">
+        <div class="container  element-to-center">
             <div class="row justify-content-center mb-5 pb-3">
                 <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
                   <span class="subheading" style="color:#FDD7E4;font-family: 'Lucida Console', Monaco, monospace">UJIAN SELIDIK</span>
@@ -169,7 +173,7 @@
                 </div>
               </div>
               <div class="dropdown3">
-                  <button onclick="myFunction3()" class="dropbtn3 btn btn-primary d-block px-3 py-3 mb-4 custom">Senerai Soalan ▼</button>
+                  <button onclick="myFunction3()" class="dropbtn3 btn btn-primary d-block px-3 py-3 mb-4 custom">Senarai Soalan ▼</button>
                   <div id="myDropdown3" class="dropdown-content3">
                       <a data-target="#test3" data-slide-to="0">Soalan 1</a>
                       <a data-target="#test3" data-slide-to="1">Soalan 2</a>
