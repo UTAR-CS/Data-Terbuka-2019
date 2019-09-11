@@ -145,7 +145,7 @@
 	  </nav>
     <!-- END nav -->
 
-    <section class="home-slider owl-carousel">
+    <section class="home-slider owl-carousel disable-scroll">
       <div class="slider-item bread-item" style="background-image: url(images/bg_1.jpg);" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container-fluid">
@@ -748,6 +748,9 @@
     }
   }
   $(document).ready(function () {
+
+    $(".disable-scroll").css({"pointer-events": "none"});
+
     $("#btn3").click(function() {
       var flag3 = [];
       var counter = 0;
