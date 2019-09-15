@@ -397,7 +397,7 @@ $(function()
   function send_distress(_callback)
   {
     var coordinates = latitude + ',' + longitude;
-    var website = 'http://www.data.gov.my/';
+    var website = 'https://rangers-psycho-pass.firebaseapp.com/';
 
     var recepient = 'dataterbuka@mampu.gov.my';
     var subject = 'Tolong! Bantuan mental amat Diperlukan!';
@@ -417,7 +417,7 @@ $(function()
   function send_email()
   {
     var coordinates = latitude + ',' + longitude;
-    var website = 'http://www.data.gov.my/';
+    var website = 'https://rangers-psycho-pass.firebaseapp.com/';
 
     var recepient = 'dataterbuka@mampu.gov.my';
     var subject = 'Saya ingin memdapatkan bantuan mental';
