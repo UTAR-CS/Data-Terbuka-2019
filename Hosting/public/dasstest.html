@@ -35,25 +35,26 @@
 
     <style>
       .custom {
-          margin: auto;
-          border: 1px solid #2D383A !important;
-          font-weight: bold;
-          background: rgba(244,54,1,1) !important;
-          background: -moz-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
-          background: -webkit-gradient(left bottom, right top, color-stop(0%, #00468C), color-stop(100%, #2887C8)) !important;
-          background: -webkit-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
-          background: -o-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
-          background: -ms-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
-          background: linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
+        border-radius: 4px;
+        /* background: linear-gradient(to right, #67b26b, #EE82EE) !important; */
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 22px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.4s;
+        cursor: pointer;
+        margin: 5px;
         }
-        
+
         .custom:hover {
-          margin: auto;
-          color: #00468C !important;
-          font-weight: bold !important;
-          background: white !important;
-          outline-color: blue !important;
+          opacity: 1;
+          right: 0;
+          color: black;
         }
+
         /* Make the image fully responsive */
         .carousel-inner img {
             width: 100%;
@@ -62,7 +63,7 @@
         
         /* Dropdown Button */
         .dropbtn2 {
-          background-color: #3498DB;
+          background-color: #DA70D6;
           color: white;
           padding: 16px;
           font-size: 16px;
@@ -70,8 +71,9 @@
           cursor: pointer;
         }
         /* Dropdown button on hover & focus */
-        .dropbtn2:hover, .dropbtn:focus {
-          background-color: #2980B9;
+        .dropbtn2:hover, .dropbtn2:focus {
+          background-color: white;
+          color: #DA70D6;
         }
         /* The container <div> - needed to position the dropdown content */
         .dropdown2 {
@@ -84,7 +86,7 @@
           display: none;
           position: absolute;
           background-color: #f1f1f1;
-          min-width: 160px;
+          min-width: 200px;
           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
           z-index: 1;
           overflow-y: scroll;
@@ -101,14 +103,64 @@
         .dropdown-content2 a:hover {background-color: #ddd}
         /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
         .show2 {display:block;}
-       
+
         .text {
           color: #FFFFFF;
           font-size: 22px;
+          margin-right: 10%;
+          margin-left: 10%;
+        }
+
+        .btn-success {
+          background-color: orchid;
+          border: 1.2px solid mediumorchid;
+        }
+
+        .btn-success:hover {
+          background-color: mediumorchid;
+          border: 1.2px solid darkorchid	;
+        }
+
+        @media (max-width: 800px) {
+          .text {
+          color: #FFFFFF;
+          font-size: 16px;
+          margin-right: 10%;
+          margin-left: 10%;
+        }
+
+          .btn-success {
+            font-size: 12px;
+          }
         }
 
         .element-to-center{
           text-align: center;
+        }
+
+        .element-to-center{
+          text-align: center;
+        }
+
+        #btn2 {
+           display:inline-block;
+           padding: 0.7em 1.4em;
+           margin: 0 0.3em 0.3em 0;
+           border-radius:0.15em;
+           box-sizing: border-box;
+           text-decoration: none;
+           font-family: 'Roboto',sans-serif;
+           text-transform: uppercase;
+           font-weight:400;
+           color: black;
+           background-color:limegreen;
+           /* box-shadow:inset 0 -0.6em 0 -0.35em #9400D3; */
+           text-align: center;
+           position: relative;
+        }
+
+        #btn2:active {
+          top:0.1em;
         }
         </style>
   </head>
@@ -176,12 +228,12 @@
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
           <h2 class="mb-4" style="color:#FFFFFF;">UJIAN SELIDIK</h2>
-          <p style="color:#FFFFFF;font-size: 20px;">Untuk menguji tahap stress,
-            kebimbangan dan kemurungan anda, tolong menjawab beberapa soalan di bawah</p>
+          <p style="color:#FFFFFF;font-size: 20px;">Untuk menguji tahap stres,
+            keresahan dan kemurungan anda, tolong menjawab beberapa soalan di bawah</p>
         </div>
       </div>
       <div class="dropdown2">
-        <button onclick="myFunction2()" class="dropbtn2 btn btn-primary d-block px-3 py-3 mb-4 custom">Senarai Soalan
+        <button onclick="myFunction2()" class="dropbtn2 btn d-block px-3 py-3 mb-4 custom">Senarai Soalan
           ▼</button>
         <div id="myDropdown2" class="dropdown-content2">
           <a data-target="#test2" data-slide-to="0">Soalan 1</a>
@@ -242,7 +294,7 @@
               <div class="text">
                 <p class="mb-5" name="testing">1. Saya dapati diri saya sukar ditenteramkan</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons" class="test">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success">
                     <input type="radio" name="test2sq1" value="0"> Tidak langsung<br>
                   </label>
@@ -264,7 +316,7 @@
               <div class="text">
                 <p class="mb-5">2. Saya sedar mulut saya terasa kering</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2aq1" value="0"> Tidak langsung<br>
                   </label>
@@ -286,7 +338,7 @@
               <div class="text">
                 <p class="mb-5">3. Saya tidak dapat mengalami perasaan positif sama sekali</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2dq1" value="0"> Tidak langsung<br>
                   </label>
@@ -309,7 +361,7 @@
                 <p class="mb-5">4. Saya mengalami kesukaran bernafas (contohnya pernafasan yang laju, tercungap-cungap
                   walaupun tidak melakukan senaman fizikal)</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2aq2" value="0"> Tidak langsung<br>
                   </label>
@@ -331,7 +383,7 @@
               <div class="text">
                 <p class="mb-5">5. Saya sukar untuk mendapatkan semangat bagi melakukan sesuatu perkara</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2dq2" value="0"> Tidak langsung<br>
                   </label>
@@ -353,7 +405,7 @@
               <div class="text">
                 <p class="mb-5">6. Saya cenderung untuk bertindak keterlaluan dalam sesuatu keadaan</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2sq2" value="0"> Tidak langsung<br>
                   </label>
@@ -375,7 +427,7 @@
               <div class="text">
                 <p class="mb-5">7. Saya rasa menggeletar (contohnya pada tangan)</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2aq3" value="0"> Tidak langsung<br>
                   </label>
@@ -397,7 +449,7 @@
               <div class="text">
                 <p class="mb-5">8. Saya rasa saya menggunakan banyak tenaga dalam keadaan cemas</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2sq3" value="0"> Tidak langsung<br>
                   </label>
@@ -420,7 +472,7 @@
                 <p class="mb-5">9. Saya bimbang keadaan di mana saya mungkin menjadi panik dan melakukan perkara yang
                   membodohkan diri sendiri</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2aq4" value="0"> Tidak langsung<br>
                   </label>
@@ -442,7 +494,7 @@
               <div class="text">
                 <p class="mb-5">10. Saya rasa saya tidak mempunyai apa-apa untuk diharapkan</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2dq3" value="0"> Tidak langsung<br>
                   </label>
@@ -464,7 +516,7 @@
               <div class="text">
                 <p class="mb-5">11. Saya dapati diri saya semakin gelisah </p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2sq4" value="0"> Tidak langsung<br>
                   </label>
@@ -486,7 +538,7 @@
               <div class="text">
                 <p class="mb-5">12. Saya rasa sukar untuk relaks</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2sq5" value="0"> Tidak langsung<br>
                   </label>
@@ -508,7 +560,7 @@
               <div class="text">
                 <p class="mb-5">13. Saya rasa sedih dan murung</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2dq4" value="0"> Tidak langsung<br>
                   </label>
@@ -531,7 +583,7 @@
                 <p class="mb-5">14. Saya tidak dapat menahan sabar dengan perkara yang menghalang saya meneruskan apa
                   yang saya lakukan</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2sq6" value="0"> Tidak langsung<br>
                   </label>
@@ -553,7 +605,7 @@
               <div class="text">
                 <p class="mb-5">15. Saya rasa hampir-hampir menjadi panik/cemas</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2aq5" value="0"> Tidak langsung<br>
                   </label>
@@ -575,7 +627,7 @@
               <div class="text">
                 <p class="mb-5">16. Saya tidak bersemangat dengan apa jua yang saya lakukan.</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2dq5" value="0"> Tidak langsung<br>
                   </label>
@@ -597,7 +649,7 @@
               <div class="text">
                 <p class="mb-5">17. Saya tidak begitu berharga sebagai seorang individu </p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2dq6" value="0"> Tidak langsung<br>
                   </label>
@@ -619,7 +671,7 @@
               <div class="text">
                 <p class="mb-5">18. Saya rasa yang saya mudah tersentuh </p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2sq7" value="0"> Tidak langsung<br>
                   </label>
@@ -642,7 +694,7 @@
                 <p class="mb-5">19. Saya sedar tindakbalas jantung saya walaupun tidak melakukan aktiviti fizikal
                   (contohnya kadar denyutan jantung bertambah, atau denyutan jantung berkurangan)</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2aq6" value="0"> Tidak langsung<br>
                   </label>
@@ -664,7 +716,7 @@
               <div class="text">
                 <p class="mb-5">20. Saya berasa takut tanpa sebab yang munasabah </p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2aq7" value="0"> Tidak langsung<br>
                   </label>
@@ -686,7 +738,7 @@
               <div class="text">
                 <p class="mb-5">21. Saya rasa hidup ini tidak bermakna </p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons">
                   <label class="btn btn-success">
                     <input type="radio" name="test2dq7" value="0"> Tidak langsung<br>
                   </label>
@@ -717,7 +769,7 @@
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
           <br>
-          <button type="button" id="btn2" class="btn btn-warning" style="color:white">Hantar Jawapan</button>
+          <button type="button" id="btn2" class="btn" style="color:white">Hantar Jawapan</button>
           <div id="test2Error" style="color:red"></div>
         </div>
       </div>
@@ -820,7 +872,50 @@
     }
   }
 
+  $(window).resize(function() {
+    if(window.innerWidth>800) {
+      var element = document.getElementsByClassName("btn-group-toggle");
+      for (i = 0; i < element.length; i++) {
+        var openElement = element[i];
+        if (openElement.classList.contains('btn-group-vertical')) {
+          openElement.classList.remove('btn-group-vertical');
+        }
+        openElement.classList.add("btn-group");
+      }
+    }
+    else {
+      var element = document.getElementsByClassName("btn-group-toggle");
+      for (i = 0; i < element.length; i++) {
+        var openElement = element[i];
+        if (openElement.classList.contains('btn-group')) {
+          openElement.classList.remove('btn-group');
+        }
+        openElement.classList.add("btn-group-vertical");
+      }
+    }
+  });
+
   $(document).ready(function () {
+    if(window.innerWidth>800) {
+      var element = document.getElementsByClassName("btn-group-toggle");
+      for (i = 0; i < element.length; i++) {
+        var openElement = element[i];
+        if (openElement.classList.contains('btn-group-vertical')) {
+          openElement.classList.remove('btn-group-vertical');
+        }
+        openElement.classList.add("btn-group");
+      }
+    }
+    else {
+      var element = document.getElementsByClassName("btn-group-toggle");
+      for (i = 0; i < element.length; i++) {
+        var openElement = element[i];
+        if (openElement.classList.contains('btn-group')) {
+          openElement.classList.remove('btn-group');
+        }
+        openElement.classList.add("btn-group-vertical");
+      }
+    }
 
     $(".disable-scroll").css({"pointer-events": "none"});
 
@@ -843,7 +938,7 @@
         }
       }
       if (flag2.length > 0) {
-        document.getElementById("test2Error").textContent = "Please Answer All Question(s) Before Submit!";
+        document.getElementById("test2Error").textContent = "Sila jawab soalan(s) sebelum menghantar!";
         return false;
       }
       else {
