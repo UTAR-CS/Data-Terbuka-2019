@@ -1,719 +1,754 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <title>Psycho-Pass</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,,500,600,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+<head>
+  <title>Psycho-Pass - Ujian Kesepian</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="css/aos.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,,500,600,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
 
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/aos.css">
 
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/ionicons.min.css">
 
-    <style>
-        .custom {
-          border: 1px solid #2D383A !important;
-          font-weight: bold;
-          background: rgba(244,54,1,1) !important;
-          background: -moz-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
-          background: -webkit-gradient(left bottom, right top, color-stop(0%, #00468C), color-stop(100%, #2887C8)) !important;
-          background: -webkit-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
-          background: -o-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
-          background: -ms-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
-          background: linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+
+  <style>
+      .custom {
+        margin: auto;
+        border: 1px solid #2D383A !important;
+        font-weight: bold;
+        background: rgba(244,54,1,1) !important;
+        background: -moz-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
+        background: -webkit-gradient(left bottom, right top, color-stop(0%, #00468C), color-stop(100%, #2887C8)) !important;
+        background: -webkit-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
+        background: -o-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
+        background: -ms-linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
+        background: linear-gradient(45deg, #00468C 0%, #2887C8 100%) !important;
+      }
+
+      .custom:hover {
+          margin: auto;
+          color: #00468C !important;
+          font-weight: bold !important;
+          background: white !important;
+          outline-color: blue !important;
         }
-        /* Make the image fully responsive */
-        .carousel-inner img {
-            width: 100%;
-            height: 100%;
-        }
-        /* Dropdown Button */
-        .dropbtn1 {
-          background-color: #FF5470;
-          color: white;
-          padding: 16px;
-          font-size: 16px;
-          border: none;
-          cursor: pointer;
-          border-radius: 15px;
-        }
-        /* Dropdown button on hover & focus */
-        .dropbtn1:hover, .dropbtn:focus {
-          background-color: #2980B9;
-        }
-        /* The container <div> - needed to position the dropdown content */
-        .dropdown1 {
-          position: relative;
-          display: inline-block;
-          width:400px;
-          margin-left: 42%;
-          margin-right: 45%;
-        }
-        /* Dropdown Content (Hidden by Default) */
-        .dropdown-content1 {
-          display: none;
-          position: absolute;
-          background-color: #f1f1f1;
-          min-width: 160px;
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          z-index: 1;
-          overflow-y: scroll;
-          height: 300px;
-        }
-        /* Links inside the dropdown */
-        .dropdown-content1 a {
-          color: black;
-          padding: 12px 16px;
-          text-decoration: none;
-          display: block;
-        }
-        /* Change color of dropdown links on hover */
-        .dropdown-content1 a:hover {background-color: #ddd}
-        /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-        .show1 {display:block;}
+
+      /* Make the image fully responsive */
+      .carousel-inner img {
+          margin: auto;
+          width: 100%;
+          height: 100%;
+      }
+      /* Dropdown Button */
+      .dropbtn1 {
+        background-color: #FF5470;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
         
-        .text {
-          color: #FDD7E4;
-          font-size: 22px;
-        }
-        </style>
-  </head>
-  <body>
-    
-	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Psycho-Pass</a>
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
+      }
+      /* Dropdown button on hover & focus */
+      .dropbtn1:hover, .dropbtn:focus {
+        background-color: #2980B9;
+      }
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown1 {
+        position: relative;
+        display: inline-block;
+      }
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content1 {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        overflow-y: scroll;
+        height: 300px;
+      }
+      /* Links inside the dropdown */
+      .dropdown-content1 a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      /* Change color of dropdown links on hover */
+      .dropdown-content1 a:hover {background-color: #ddd}
+      /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+      .show1 {display:block;}
+      
+      .text {
+        color: #FFFFFF;
+        font-size: 22px;
+      }
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Laman Utama</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ujian</a>
-              <div class="dropdown-menu">
-                  <a class="dropdown-item" href="dasstest.html">Ujian DASS</a>
-                  <a class="dropdown-item" href="lonliness.html">Ujian Kesepian</a>
-                  <a class="dropdown-item" href="suicide.html">Ujian Ideasi Membunuh Diri</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Trend
-                  </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="trend.html">Trend</a>
-                      <a class="dropdown-item" href="maklumat-lanjut.html">Maklumat Lanjut</a>
-                    </div>
-                 
-                </li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">Dapatkan Bantuan</a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-    <!-- END nav -->
+      .element-to-center{
+        text-align: center;
+      }
+      </style>
+</head>
 
-    <section class="home-slider owl-carousel">
-      <div class="slider-item bread-item" style="background-image: url(images/bg_1.jpg);" data-stellar-background-ratio="0.5">
-        <div class="overlay"></div>
-        <div class="container-fluid">
-          <div class="row slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+<body>
 
-            <div class="col-md-8 mt-5 text-center col-sm-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-	            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ujian Kesepian</h1>
-            </div>
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Psycho-Pass</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">Laman Utama</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Ujian
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li> <a class="dropdown-item" href="dasstest.html">Ujian DASS</a></li>
+              <li><a class="dropdown-item" href="lonliness.html">Ujian Kesepian</a></li>
+              <li><a class="dropdown-item" href="suicide.html">Ujian Ideasi Membunuh Diri</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Trend
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li> <a class="dropdown-item" href="trend.html">Trend</a></li>
+              <li> <a class="dropdown-item" href="maklumat-lanjut.html">Maklumat Lanjut</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Dapatkan Bantuan</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- END nav -->
+
+  <section class="home-slider owl-carousel disable-scroll">
+    <div class="slider-item bread-item" style="background-image: url(images/bg_1.jpg);"
+      data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container-fluid">
+        <div class="row slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+
+          <div class="col-md-8 mt-5 text-center col-sm-12 ftco-animate"
+            data-scrollax=" properties: { translateY: '70%' }">
+            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Ujian Kesepian</h1>
           </div>
         </div>
       </div>
-    </section>
-  
-    <section class="ftco-section testimony-section">
-      <div class="container">
-          <div class="row justify-content-center mb-5 pb-3 ">
-              <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-                <span class="subheading" style="color:#FDD7E4;font-family: 'Lucida Console', Monaco, monospace">Kaji Selidik 1</span>
-                <h2 class="mb-4" style="color:#FDD7E4;font-family: 'Lucida Console', Monaco, monospace">Ujian Kesepian</h2>
-                <p style="color:#FDD7E4;font-family: 'Lucida Console', Monaco, monospace">Untuk menguji tahap kesepian anda, tolong menjawab beberapa soalan di bawah.</p>
-              </div>
-            </div>
-            <div class="dropdown1">
-                <button onclick="myFunction1()" class="dropbtn1 btn btn-primary d-block px-3 py-3 mb-4 custom">Senarai Soalan ▼</button>
-                <div id="myDropdown1" class="dropdown-content1">
-                    <a data-target="#test1" data-slide-to="0">Soalan 1</a>
-                    <a data-target="#test1" data-slide-to="1">Soalan 2</a>
-                    <a data-target="#test1" data-slide-to="2">Soalan 3</a>
-                    <a data-target="#test1" data-slide-to="3">Soalan 4</a>
-                    <a data-target="#test1" data-slide-to="4">Soalan 5</a>
-                    <a data-target="#test1" data-slide-to="5">Soalan 6</a>
-                    <a data-target="#test1" data-slide-to="6">Soalan 7</a>
-                    <a data-target="#test1" data-slide-to="7">Soalan 8</a>
-                    <a data-target="#test1" data-slide-to="8">Soalan 9</a>
-                    <a data-target="#test1" data-slide-to="9">Soalan 10</a>
-                    <a data-target="#test1" data-slide-to="10">Soalan 11</a>
-                    <a data-target="#test1" data-slide-to="11">Soalan 12</a>
-                    <a data-target="#test1" data-slide-to="12">Soalan 13</a>
-                    <a data-target="#test1" data-slide-to="13">Soalan 14</a>
-                    <a data-target="#test1" data-slide-to="14">Soalan 15</a>
-                    <a data-target="#test1" data-slide-to="15">Soalan 16</a>
-                    <a data-target="#test1" data-slide-to="16">Soalan 17</a>
-                    <a data-target="#test1" data-slide-to="17">Soalan 18</a>
-                    <a data-target="#test1" data-slide-to="18">Soalan 19</a>
-                    <a data-target="#test1" data-slide-to="19">Soalan 20</a>
+    </div>
+  </section>
+
+  <section class="ftco-section testimony-section element-to-center">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-3 ">
+        <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+          <h2 class="mb-4" style="color:#FFFFFF;">UJIAN SELIDIK</h2>
+          <p style="color:#FFFFFF;font-size: 20px;">Untuk menguji tahap kesepian anda,
+            tolong menjawab beberapa soalan di bawah.</p>
+        </div>
+      </div>
+      <div class="dropdown1">
+        <button onclick="myFunction1()" class="dropbtn1 btn btn-primary d-block px-3 py-3 mb-4 custom">Senarai Soalan
+          ▼</button>
+        <div id="myDropdown1" class="dropdown-content1">
+          <a data-target="#test1" data-slide-to="0">Soalan 1</a>
+          <a data-target="#test1" data-slide-to="1">Soalan 2</a>
+          <a data-target="#test1" data-slide-to="2">Soalan 3</a>
+          <a data-target="#test1" data-slide-to="3">Soalan 4</a>
+          <a data-target="#test1" data-slide-to="4">Soalan 5</a>
+          <a data-target="#test1" data-slide-to="5">Soalan 6</a>
+          <a data-target="#test1" data-slide-to="6">Soalan 7</a>
+          <a data-target="#test1" data-slide-to="7">Soalan 8</a>
+          <a data-target="#test1" data-slide-to="8">Soalan 9</a>
+          <a data-target="#test1" data-slide-to="9">Soalan 10</a>
+          <a data-target="#test1" data-slide-to="10">Soalan 11</a>
+          <a data-target="#test1" data-slide-to="11">Soalan 12</a>
+          <a data-target="#test1" data-slide-to="12">Soalan 13</a>
+          <a data-target="#test1" data-slide-to="13">Soalan 14</a>
+          <a data-target="#test1" data-slide-to="14">Soalan 15</a>
+          <a data-target="#test1" data-slide-to="15">Soalan 16</a>
+          <a data-target="#test1" data-slide-to="16">Soalan 17</a>
+          <a data-target="#test1" data-slide-to="17">Soalan 18</a>
+          <a data-target="#test1" data-slide-to="18">Soalan 19</a>
+          <a data-target="#test1" data-slide-to="19">Soalan 20</a>
+        </div>
+      </div>
+      <p></p>
+      <div id="test1" class="carousel slide" data-interval="false" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#test1" data-slide-to="0" class="active"></li>
+          <li data-target="#test1" data-slide-to="1"></li>
+          <li data-target="#test1" data-slide-to="2"></li>
+          <li data-target="#test1" data-slide-to="3"></li>
+          <li data-target="#test1" data-slide-to="4"></li>
+          <li data-target="#test1" data-slide-to="5"></li>
+          <li data-target="#test1" data-slide-to="6"></li>
+          <li data-target="#test1" data-slide-to="7"></li>
+          <li data-target="#test1" data-slide-to="8"></li>
+          <li data-target="#test1" data-slide-to="9"></li>
+          <li data-target="#test1" data-slide-to="10"></li>
+          <li data-target="#test1" data-slide-to="11"></li>
+          <li data-target="#test1" data-slide-to="12"></li>
+          <li data-target="#test1" data-slide-to="13"></li>
+          <li data-target="#test1" data-slide-to="14"></li>
+          <li data-target="#test1" data-slide-to="15"></li>
+          <li data-target="#test1" data-slide-to="16"></li>
+          <li data-target="#test1" data-slide-to="17"></li>
+          <li data-target="#test1" data-slide-to="18"></li>
+          <li data-target="#test1" data-slide-to="19"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">1. Berapa kerap anda berasa bahawa anda "selaras" dengan orang-orang di sekeliling anda?
+                </p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons" class="test">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q1" id="q1_1" value="4" class="test"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q1" id="q1_2" value="3" class="test"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q1" id="q1_3" value="2" class="test"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q1" id="q1_4" value="1" class="test"> Sangat kerap<br>
+                  </label>
                 </div>
               </div>
-              <p></p>
-          <div id="test1" class="carousel slide" data-interval="false" data-ride="carousel">
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">2. Berapa kerap anda berasa bahawa anda kurang persahabatan? </p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons" class="test">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q2" id="q2_1" value="1"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q2" id="q2_2" value="2"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q2" id="q2_3" value="3"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q2" id="q2_4" value="4"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">3. Berapa kerap anda berasa bahawa tiada siapa yang boleh anda bergantung kepada?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q3" value="1"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q3" value="2"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q3" value="3"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q3" value="4"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">4. Berapa kerap anda berasa bersendirian seorang?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q4" value="1"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q4" value="2"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q4" value="3"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q4" value="4"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">5. Berapa kerap anda berasa anda adalah sebahagian daripada sekumpulan teman anda?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q5" value="4"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q5" value="3"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q5" value="2"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q5" value="1"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">6. Berapa kerap anda berasa bahawa anda mempunyai banyak persamaan dengan orang di
+                  sekeliling anda?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q6" value="4"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q6" value="3"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q6" value="2"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q6" value="1"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">7. Berapa kerap anda berasa bahawa anda tidak lagi dekat dengan sesiapa?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q7" value="1"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q7" value="2"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q7" value="3"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q7" value="4"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">8. Berapa kerap anda berasa minat dan idea anda tidak depat dikongsi oleh orang-orang di
+                  sekeliling anda?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q8" value="1"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q8" value="2"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q8" value="3"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q8" value="4"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">9. Berapa kerapkah anda berasa bersemangat dan mesra?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q9" value="4"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q9" value="3"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q9" value="2"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q9" value="1"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">10. Berapa kerap anda berasa dekat dengan orang sekeliling anda?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q10" value="4"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q10" value="3"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q10" value="2"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q10" value="1"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">11. Berapa kerap anda berasa tertinggal?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q11" value="1"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q11" value="2"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q11" value="3"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q11" value="4"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">12. Berapa kerap anda berasa hubungan anda dengan orang lain tidak bermakna lagi?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q12" value="1"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q12" value="2"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q12" value="3"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q12" value="4"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">13. Berapa kerap anda berasa bahawa tiada siapa yang benar-benar menahui anda?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q13" value="1"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q13" value="2"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q13" value="3"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q13" value="4"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">14. Berapa kerap anda berasa terpencil dari orang lain?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q14" value="1"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q14" value="2"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q14" value="3"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q14" value="4"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">15. Berapa kerap anda berasa bahawa anda boleh mencari persahabatan apabila anda mahu?
+                </p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q15" value="4"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q15" value="3"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q15" value="2"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q15" value="1"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">16. Berapa kerap anda berasa ada orang yang benar-benar memahami anda?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q16" value="4"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q16" value="3"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q16" value="2"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q16" value="1"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">17. Berapa kerap anda berasa malu?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q17" value="1"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q17" value="2"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q17" value="3"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q17" value="4"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">18. Berapa kerap anda berasa bahawa orang berada di sekeliling anda tetapi tidak berada
+                  dengan anda?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q18" value="1"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q18" value="2"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q18" value="3"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q18" value="4"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">19. Berapa kerap anda berasa ada orang yang anda boleh bercakap dengan?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q19" value="4"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q19" value="3"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q19" value="2"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q19" value="1"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="text-align: center">
+            <div class="testimony-wrap p-4 pb-5">
+              <div class="text">
+                <p class="mb-5">20. Berapa kerap anda berasa ada orang yang anda boleh bergantung?</p>
+                <p class="name">Jawapan anda:</p>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q20" value="4"> Tidak langsung<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q20" value="3"> Sedikit<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q20" value="2"> Kerapkali<br>
+                  </label>
+                  <label class="btn btn-success custom1">
+                    <input type="radio" name="test1q20" value="1"> Sangat kerap<br>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-              <!-- Indicators -->
-              <ul class="carousel-indicators">
-                <li data-target="#test1" data-slide-to="0" class="active"></li>
-                <li data-target="#test1" data-slide-to="1"></li>
-                <li data-target="#test1" data-slide-to="2"></li>
-                <li data-target="#test1" data-slide-to="3"></li>
-                <li data-target="#test1" data-slide-to="4"></li>
-                <li data-target="#test1" data-slide-to="5"></li>
-                <li data-target="#test1" data-slide-to="6"></li>
-                <li data-target="#test1" data-slide-to="7"></li>
-                <li data-target="#test1" data-slide-to="8"></li>
-                <li data-target="#test1" data-slide-to="9"></li>
-                <li data-target="#test1" data-slide-to="10"></li>
-                <li data-target="#test1" data-slide-to="11"></li>
-                <li data-target="#test1" data-slide-to="12"></li>
-                <li data-target="#test1" data-slide-to="13"></li>
-                <li data-target="#test1" data-slide-to="14"></li>
-                <li data-target="#test1" data-slide-to="15"></li>
-                <li data-target="#test1" data-slide-to="16"></li>
-                <li data-target="#test1" data-slide-to="17"></li>
-                <li data-target="#test1" data-slide-to="18"></li>
-                <li data-target="#test1" data-slide-to="19"></li>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#test1" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#test1" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      <div class="row justify-content-center mb-5 pb-3">
+        <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+          <br>
+          <button type="button" id="btn1" class="btn btn-warning" style="color:white">Hantar Jawapan</button>
+          <div id="test1Error" style="color:red"></div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer class="ftco-footer ftco-bg-dark ftco-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Psycho-Pass</h2>
+            <p>Kesejahteraan Fisiologi menjadi masalah kesihatan yang serius menjejaskan remaja, jadi kes ini perlu
+              memperlakukan secerpat mungkin</p>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2"></h2>
+            <div class="block-23 mb-3">
+              <ul>
+                <li><span class="icon icon-map-marker"></span><span class="text">Jalan Universiti, Bandar Barat, 31900
+                    Kampar, Negeri Perak</span></li>
+                <li><span class="icon icon-phone"></span><span class="text">+6 012-563 1871</span></li>
+                <li><span class="icon icon-envelope"></span><span class="text">tlter@yahoo.com</span></li>
               </ul>
-            
-              <!-- The slideshow -->
-              <div class="carousel-inner">
-                <div class="carousel-item active" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">1. Berapa kerap anda berasa bahawa anda "selaras" dengan orang-orang di sekeliling anda?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons" class="test">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q1" id="q1_1" value="4" class="test"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q1" id="q1_2" value="3" class="test"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q1" id="q1_3" value="2" class="test"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q1" id="q1_4" value="1" class="test"> Sangat kerap<br>
-                              </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">2. Berapa kerap anda berasa bahawa anda kurang persahabatan? </p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons" class="test">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q2" id="q2_1" value="1"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q2" id="q2_2" value="2"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q2" id="q2_3" value="3"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q2" id="q2_4" value="4"> Sangat kerap<br>
-                              </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">3. Berapa kerap anda berasa bahawa tiada siapa yang boleh anda bergantung kepada?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q3" value="1"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q3" value="2"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q3" value="3"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                  <input type="radio" name="test1q3" value="4"> Sangat kerap<br>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">4. Berapa kerap anda berasa bersendirian seorang?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q4" value="1"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q4" value="2"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q4" value="3"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                  <input type="radio" name="test1q4" value="4"> Sangat kerap<br>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">5. Berapa kerap anda berasa anda adalah sebahagian daripada sekumpulan teman anda?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q5" value="4"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q5" value="3"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q5" value="2"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                  <input type="radio" name="test1q5" value="1"> Sangat kerap<br>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">6. Berapa kerap anda berasa bahawa anda mempunyai banyak persamaan dengan orang di sekeliling anda?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q6" value="4"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q6" value="3"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q6" value="2"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                  <input type="radio" name="test1q6" value="1"> Sangat kerap<br>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">7. Berapa kerap anda berasa bahawa anda tidak lagi dekat dengan sesiapa?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q7" value="1"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q7" value="2"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q7" value="3"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                  <input type="radio" name="test1q7" value="4"> Sangat kerap<br>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">8. Berapa kerap anda berasa minat dan idea anda tidak depat dikongsi oleh orang-orang di sekeliling anda?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q8" value="1"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q8" value="2"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q8" value="3"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                  <input type="radio" name="test1q8" value="4"> Sangat kerap<br>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">9. Berapa kerapkah anda berasa bersemangat dan mesra?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q9" value="4"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q9" value="3"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q9" value="2"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                  <input type="radio" name="test1q9" value="1"> Sangat kerap<br>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">10. Berapa kerap anda berasa dekat dengan orang sekeliling anda?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q10" value="4"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q10" value="3"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q10" value="2"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                  <input type="radio" name="test1q10" value="1"> Sangat kerap<br>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">11. Berapa kerap anda berasa tertinggal?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q11" value="1"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q11" value="2"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q11" value="3"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                  <input type="radio" name="test1q11" value="4"> Sangat kerap<br>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">12. Berapa kerap anda berasa hubungan anda dengan orang lain tidak bermakna lagi?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q12" value="1"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q12" value="2"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q12" value="3"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                  <input type="radio" name="test1q12" value="4"> Sangat kerap<br>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">13. Berapa kerap anda berasa bahawa tiada siapa yang benar-benar menahui anda?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q13" value="1"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q13" value="2"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q13" value="3"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                  <input type="radio" name="test1q13" value="4"> Sangat kerap<br>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">14. Berapa kerap anda berasa terpencil dari orang lain?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q14" value="1"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q14" value="2"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q14" value="3"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q14" value="4"> Sangat kerap<br>
-                              </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">15. Berapa kerap anda berasa bahawa anda boleh mencari persahabatan apabila anda mahu?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q15" value="4"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q15" value="3"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q15" value="2"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q15" value="1"> Sangat kerap<br>
-                              </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">16. Berapa kerap anda berasa ada orang yang benar-benar memahami anda?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q16" value="4"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q16" value="3"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q16" value="2"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q16" value="1"> Sangat kerap<br>
-                              </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">17.  Berapa kerap anda berasa malu?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q17" value="1"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q17" value="2"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q17" value="3"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                  <input type="radio" name="test1q17" value="4"> Sangat kerap<br>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">18. Berapa kerap anda berasa bahawa orang berada di sekeliling anda tetapi tidak berada dengan anda?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q18" value="1"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q18" value="2"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q18" value="3"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                  <input type="radio" name="test1q18" value="4"> Sangat kerap<br>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">19. Berapa kerap anda berasa ada orang yang anda boleh bercakap dengan?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q19" value="4"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q19" value="3"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q19" value="2"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q19" value="1"> Sangat kerap<br>
-                              </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item" style="text-align: center">
-                    <div class="testimony-wrap p-4 pb-5">
-                        <div class="text">
-                          <p class="mb-5">20. Berapa kerap anda berasa ada orang yang anda boleh bergantung?</p>
-                          <p class="name">Jawapan anda:</p>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q20" value="4"> Tidak langsung<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q20" value="3"> Sedikit<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q20" value="2"> Kerapkali<br>
-                              </label>
-                              <label class="btn btn-success custom1">
-                                <input type="radio" name="test1q20" value="1"> Sangat kerap<br>
-                              </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              </div>
-            
-              <!-- Left and right controls -->
-              <a class="carousel-control-prev" href="#test1" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-              </a>
-              <a class="carousel-control-next" href="#test1" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </a>
-            </div>
-            <div class="row justify-content-center mb-5 pb-3">
-                <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-                  <br>
-                    <button type="button" id="btn1" class="btn btn-warning" style="color:white">Hantar Jawapan</button>
-                    <div id="test1Error" style="color:red"></div>
-                </div>
-              </div>
-          </div>
-      </div>
-    </section>
-
-    <footer class="ftco-footer ftco-bg-dark ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Psycho-Pass</h2>
-              <p>Kesejahteraan Fisiologi menjadi masalah kesihatan yang serius menjejaskan remaja, jadi kes ini perlu memperlakukan secerpat mungkin</p>
-            </div>
-          </div>
-         
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2"></h2>
-            	<div class="block-23 mb-3">
-	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">Jalan Universiti, Bandar Barat, 31900 Kampar, Negeri Perak</span></li>
-	                <li><span class="icon icon-phone"></span><span class="text">+6 012-563 1871</span></li>
-	                <li><span class="icon icon-envelope"></span><span class="text">tlter@yahoo.com</span></li>
-	              </ul>
-	            </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
+          <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with
+            <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
         </div>
       </div>
-    </footer>
-    
-  
+    </div>
+  </footer>
+
+
 
   <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#F96D00" /></svg></div>
 
 
   <script src="js/jquery.min.js"></script>
@@ -730,20 +765,22 @@
   <script src="js/bootstrap-datepicker.js"></script>
   <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-  </body>
+</body>
+
 </html>
 
 <script>
   function myFunction1() {
     document.getElementById("myDropdown1").classList.toggle("show1");
   }
-  window.onclick = function(event) {
+  window.onclick = function (event) {
     if (!event.target.matches('.test')) {
-      if($("input[name*='test1q']:checked").val().length == 1) {
-      $("#test1").carousel("next");
+      if ($("input[name*='test1q']:checked").val().length == 1) {
+        $("#test1").carousel("next");
       }
     }
 
@@ -760,18 +797,21 @@
   }
 
   $(document).ready(function () {
+
+    $(".disable-scroll").css({"pointer-events": "none"});
+
     $("#btn1").click(function() {
       var flag1 = [];
       var counter = 0;
-      for(var i = 1; i < 21; i++) {
-        if($("input[name='test1q" + parseInt(i) + "']:checked").length == 0) {
+      for (var i = 1; i < 21; i++) {
+        if ($("input[name='test1q" + parseInt(i) + "']:checked").length == 0) {
           flag1[counter++] = i;
         }
       }
-      if (flag1.length > 0){
+      if (flag1.length > 0) {
         var questionnumber = "";
-        for (var i = 0; i < flag1.length; i ++) {
-          if(i!=flag1.length - 1){
+        for (var i = 0; i < flag1.length; i++) {
+          if (i != flag1.length - 1) {
             questionnumber += flag1[i] + ", ";
           }
           else {
@@ -785,24 +825,24 @@
         document.getElementById("test1Error").textContent = "";
       }
       var test1answer = [];
-      for (var i = 1; i < 21; i ++) {
-        test1answer[i-1] = $("input[name='test1q" + parseInt(i) + "']:checked").val();
+      for (var i = 1; i < 21; i++) {
+        test1answer[i - 1] = $("input[name='test1q" + parseInt(i) + "']:checked").val();
       }
       var test1result = 0;
-      for(var i = 0; i < test1answer.length; i++) {
+      for (var i = 0; i < test1answer.length; i++) {
         test1result += parseInt(test1answer[i]);
       }
       var data = {}
       data.table = []
       var obj = {
-          test: 1,
-          score: test1result,
-          overallscore: 80
+        test: 1,
+        score: test1result,
+        overallscore: 80
       }
       data.table.push(obj);
       sessionStorage.setItem("result", JSON.stringify(obj));
 
       window.location.href = "result.html";
     });
-});
+  });
 </script>

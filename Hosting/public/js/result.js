@@ -397,11 +397,11 @@ $(function()
   function send_distress(_callback)
   {
     var coordinates = latitude + ',' + longitude;
-    var website = 'http://www.data.gov.my/';
+    var website = 'https://rangers-psycho-pass.firebaseapp.com/';
 
     var recepient = 'dataterbuka@mampu.gov.my';
     var subject = 'Tolong! Bantuan mental amat Diperlukan!';
-    var body =  'Saya telah membuat test ' + highest_test_type + ' di laman <Psyco-Pass>%0d%0a%0d%0a' +
+    var body =  'Saya telah membuat Ujian ' + highest_test_type + ' di laman <Psyco-Pass>%0d%0a%0d%0a' +
                 'Saya mendapat skor ' + higest_score + '/' + session_result["overallscore"] + '%0d%0a' +
                 'Skor tersebut amat tinggi dan merisaukan saya. Saya amat memerlukan bantuan mental sekarang.%0d%0a' +
                 'Lokasi saya ialah: ' +
@@ -417,11 +417,11 @@ $(function()
   function send_email()
   {
     var coordinates = latitude + ',' + longitude;
-    var website = 'http://www.data.gov.my/';
+    var website = 'https://rangers-psycho-pass.firebaseapp.com/';
 
     var recepient = 'dataterbuka@mampu.gov.my';
     var subject = 'Saya ingin memdapatkan bantuan mental';
-    var body =  'Saya telah membuat test ' + highest_test_type + ' di laman <Psyco-Pass>%0d%0a%0d%0a' +
+    var body =  'Saya telah membuat Ujian ' + highest_test_type + ' di laman <Psyco-Pass>%0d%0a%0d%0a' +
                 'Saya mendapat skor ' + higest_score + '/' + session_result["overallscore"] + '%0d%0a' +
                 'Skor tersebut merisaukan saya. Saya ingin mendapatkan bantuan daripada pihak anda.%0d%0a' +
                 'Lokasi saya ialah: ' +
