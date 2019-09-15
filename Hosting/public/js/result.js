@@ -97,10 +97,10 @@ $(function()
         counter();
         $(".help-text").append("Anda mempunyai skor " + test_type + " yang merisaukan. Di bawah merupakan beberapa hospital yang anda boleh hubungi<br>E-mel akan dihantar ke hospital dengan skor " + test_type + " anda");
 
-        var table_header =  '<div class="col-md-12 ftco-animate fadeInUp ftco-animated">' +
+        var table_header =  '<div class="col-md-12 ftco-animate fadeInUp ftco-animated table-format">' +
                             '<div class="table-responsive">' +
                             '<table class="table">' +
-                            '<thead class="thead-primary">' +
+                            '<thead class="thead-primary thead-color">' +
                             '<tr>' +
                             '<th>Nama Hospital</th>' +
                             '<th>Negeri</th>' +
@@ -184,10 +184,14 @@ $(function()
       if(serious)
       {
         $(".loader").hide();
+        $(".location-box").show();
+
         $.getJSON("../json/hospital.json", function(data){
           $.each(data, function(i, field){
             if(field["NEGERI"] == state)
             {
+              $('#sort-' + state.replace(" ", "-")).prop('checked', true);
+
               var hospital_list =   '<tr>' +
                                     '<td>'+ field["HOSPITAL"] +'</td>' +
                                     '<td>'+ field["NEGERI"] +'</td>' +
@@ -454,7 +458,8 @@ $(function()
           if (status == google.maps.GeocoderStatus.OK) {
                   if (results[0]) {
                       var add= results[0].formatted_address ;
-                      var  value=add.split(",");
+                      var value=add.split(",");
+                      var valid = false;
 
                       count=value.length;
                       country=value[count-1];
@@ -466,6 +471,7 @@ $(function()
                           if(state.toLowerCase().includes(field["Negeri"].toLowerCase()))
                           {
                             state = field["True_Negeri"];
+                            valid = true;
 
                             var obj = {
                               country: country,
@@ -512,7 +518,6 @@ $(function()
 				$('.number').each(function(){
 					var $this = $(this),
 						num = $this.data('number');
-						console.log(num);
 					$this.animateNumber(
 					  {
 					    number: num,
@@ -528,4 +533,48 @@ $(function()
 		} , { offset: '95%' } );
 
   }
+
+  // function for user to manually change their current state
+  function change_location(location) {
+
+    var user_location = localStorage.getItem("location")
+    user_location = JSON.parse(user_location);
+
+    var obj = {
+      country: user_location["country"],
+      state: location,
+      city: user_location["city"],
+      latitude: user_location["latitude"],
+      longitude: user_location["longitude"],
+    }
+
+    state = location;
+    localStorage.setItem("location", JSON.stringify(obj));
+
+    $(".suggestion-table-content").html("");
+    $(".loader").show();
+    display_hospital();
+
+  }
+
+  // state selection dropdown function
+  $('.dropdown-el').click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+    $(this).toggleClass('expanded');
+    $('#' + $(e.target).attr('for')).prop('checked', true);
+
+    var selected = $('#' + $(e.target).attr('for')).val();
+
+    if (selected != null)
+      change_location(selected);
+    
+    $('.dropdown-el').animate({ scrollTop: 0 }, "fast");
+  });
+
+  $(document).click(function () {
+    $('.dropdown-el').removeClass('expanded');
+    $('.dropdown-el').animate({ scrollTop: 0 }, "fast");
+  });
+
 })
