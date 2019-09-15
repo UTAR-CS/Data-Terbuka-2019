@@ -2709,13 +2709,13 @@ input[type="button"].btn-block {
 
 .btn-group > .btn:not(:last-child):not(.dropdown-toggle),
 .btn-group > .btn-group:not(:last-child) > .btn {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0; }
+  border-radius: 0;
+  }
 
 .btn-group > .btn:not(:first-child),
 .btn-group > .btn-group:not(:first-child) > .btn {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0; }
+  border-radius: 0;
+  }
 
 .dropdown-toggle-split {
   padding-right: 0.5625rem;
@@ -2757,12 +2757,12 @@ input[type="button"].btn-block {
     margin-left: 0; }
   .btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle),
   .btn-group-vertical > .btn-group:not(:last-child) > .btn {
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0; }
+    border-radius: 0;
+    }
   .btn-group-vertical > .btn:not(:first-child),
   .btn-group-vertical > .btn-group:not(:first-child) > .btn {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0; }
+    border-radius: 0;
+    }
 
 .btn-group-toggle > .btn,
 .btn-group-toggle > .btn-group > .btn {
