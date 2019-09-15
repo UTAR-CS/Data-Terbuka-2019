@@ -121,6 +121,11 @@
           border: 1.2px solid darkorchid	;
         }
 
+        .btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active, .show > .btn-success.dropdown-toggle {
+          background-color: 	#9400D3;
+          border: 1.2px solid darkorchid
+        }
+
         @media (max-width: 800px) {
           .text {
           color: #FFFFFF;
@@ -154,9 +159,9 @@
            font-weight:400;
            color: black;
            background-color:limegreen;
-           /* box-shadow:inset 0 -0.6em 0 -0.35em #9400D3; */
            text-align: center;
            position: relative;
+           box-shadow: 0px 15px 30px -12px black;
         }
 
         #btn2:active {
@@ -853,7 +858,7 @@
   function myFunction2() {
     document.getElementById("myDropdown2").classList.toggle("show2");
   }
-  window.onclick = function (event) {
+  $(".btn-success").click(function (event) {
     if (!event.target.matches('.test')) {
       if ($("input[name*='test2']:checked").val().length == 1) {
         $("#test2").carousel("next");
@@ -870,8 +875,7 @@
         }
       }
     }
-  }
-
+  });
   $(window).resize(function() {
     if(window.innerWidth>800) {
       var element = document.getElementsByClassName("btn-group-toggle");
@@ -895,7 +899,23 @@
     }
   });
 
+  $(document).mouseup(function (e) { 
+    if ($(e.target).closest(".dropbtn2").length === 0) { 
+      var dropdowns = document.getElementsByClassName("dropdown-content2");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show2')) {
+          openDropdown.classList.remove('show2');
+        }
+      } 
+    } 
+  });
+
   $(document).ready(function () {
+    $("#myDropdown2 > a").click(function(){
+      $("#myDropdown2").removeClass("show2");
+    });
     if(window.innerWidth>800) {
       var element = document.getElementsByClassName("btn-group-toggle");
       for (i = 0; i < element.length; i++) {
