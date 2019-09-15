@@ -121,6 +121,11 @@
         border: 1.2px solid darkorchid	;
       }
 
+      .btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active, .show > .btn-success.dropdown-toggle {
+          background-color: 	#9400D3;
+          border: 1.2px solid darkorchid
+        }
+
       @media (max-width: 800px) {
         .text {
         color: #FFFFFF;
@@ -154,9 +159,9 @@
          font-weight:400;
          color: black;
          background-color:limegreen;
-         /* box-shadow:inset 0 -0.6em 0 -0.35em #9400D3; */
          text-align: center;
          position: relative;
+           box-shadow: 0px 15px 30px -12px black;
       }
 
       #btn1:active {
@@ -337,7 +342,7 @@
               <div class="text">
                 <p class="mb-5">3. Berapa kerap anda berasa bahawa tiada siapa yang boleh anda bergantung kepada?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q3" value="1"> Tidak langsung<br>
                   </label>
@@ -359,7 +364,7 @@
               <div class="text">
                 <p class="mb-5">4. Berapa kerap anda berasa bersendirian seorang?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q4" value="1"> Tidak langsung<br>
                   </label>
@@ -381,7 +386,7 @@
               <div class="text">
                 <p class="mb-5">5. Berapa kerap anda berasa anda adalah sebahagian daripada sekumpulan teman anda?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q5" value="4"> Tidak langsung<br>
                   </label>
@@ -404,7 +409,7 @@
                 <p class="mb-5">6. Berapa kerap anda berasa bahawa anda mempunyai banyak persamaan dengan orang di
                   sekeliling anda?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q6" value="4"> Tidak langsung<br>
                   </label>
@@ -426,7 +431,7 @@
               <div class="text">
                 <p class="mb-5">7. Berapa kerap anda berasa bahawa anda tidak lagi dekat dengan sesiapa?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q7" value="1"> Tidak langsung<br>
                   </label>
@@ -449,7 +454,7 @@
                 <p class="mb-5">8. Berapa kerap anda berasa minat dan idea anda tidak depat dikongsi oleh orang-orang di
                   sekeliling anda?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q8" value="1"> Tidak langsung<br>
                   </label>
@@ -471,7 +476,7 @@
               <div class="text">
                 <p class="mb-5">9. Berapa kerapkah anda berasa bersemangat dan mesra?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q9" value="4"> Tidak langsung<br>
                   </label>
@@ -493,7 +498,7 @@
               <div class="text">
                 <p class="mb-5">10. Berapa kerap anda berasa dekat dengan orang sekeliling anda?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q10" value="4"> Tidak langsung<br>
                   </label>
@@ -515,7 +520,7 @@
               <div class="text">
                 <p class="mb-5">11. Berapa kerap anda berasa tertinggal?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q11" value="1"> Tidak langsung<br>
                   </label>
@@ -537,7 +542,7 @@
               <div class="text">
                 <p class="mb-5">12. Berapa kerap anda berasa hubungan anda dengan orang lain tidak bermakna lagi?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q12" value="1"> Tidak langsung<br>
                   </label>
@@ -559,7 +564,7 @@
               <div class="text">
                 <p class="mb-5">13. Berapa kerap anda berasa bahawa tiada siapa yang benar-benar menahui anda?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q13" value="1"> Tidak langsung<br>
                   </label>
@@ -581,7 +586,7 @@
               <div class="text">
                 <p class="mb-5">14. Berapa kerap anda berasa terpencil dari orang lain?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q14" value="1"> Tidak langsung<br>
                   </label>
@@ -604,7 +609,7 @@
                 <p class="mb-5">15. Berapa kerap anda berasa bahawa anda boleh mencari persahabatan apabila anda mahu?
                 </p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q15" value="4"> Tidak langsung<br>
                   </label>
@@ -626,7 +631,7 @@
               <div class="text">
                 <p class="mb-5">16. Berapa kerap anda berasa ada orang yang benar-benar memahami anda?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q16" value="4"> Tidak langsung<br>
                   </label>
@@ -648,7 +653,7 @@
               <div class="text">
                 <p class="mb-5">17. Berapa kerap anda berasa malu?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q17" value="1"> Tidak langsung<br>
                   </label>
@@ -671,7 +676,7 @@
                 <p class="mb-5">18. Berapa kerap anda berasa bahawa orang berada di sekeliling anda tetapi tidak berada
                   dengan anda?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q18" value="1"> Tidak langsung<br>
                   </label>
@@ -693,7 +698,7 @@
               <div class="text">
                 <p class="mb-5">19. Berapa kerap anda berasa ada orang yang anda boleh bercakap dengan?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q19" value="4"> Tidak langsung<br>
                   </label>
@@ -715,7 +720,7 @@
               <div class="text">
                 <p class="mb-5">20. Berapa kerap anda berasa ada orang yang anda boleh bergantung?</p>
                 <p class="name">Jawapan anda:</p>
-                <div class="btn-group-toggle" data-toggle="buttons">
+                <div class="btn-group-toggle" data-toggle="buttons" class="test">
                   <label class="btn btn-success custom1">
                     <input type="radio" name="test1q20" value="4"> Tidak langsung<br>
                   </label>
@@ -828,14 +833,28 @@
   function myFunction1() {
     document.getElementById("myDropdown1").classList.toggle("show1");
   }
-  window.onclick = function (event) {
+
+  $(".btn-success").click(function (event) {
     if (!event.target.matches('.test')) {
-      if ($("input[name*='test1q']:checked").val().length == 1) {
+      if ($("input[name*='test1']:checked").val().length == 1) {
         $("#test1").carousel("next");
       }
     }
 
-    if (!event.target.matches('.dropbtn1')) {
+    if (!event.target.matches('.dropbtn2')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content2");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show2')) {
+          openDropdown.classList.remove('show2');
+        }
+      }
+    }
+  });
+
+  $(document).mouseup(function (e) { 
+    if ($(e.target).closest(".dropbtn1").length === 0) { 
       var dropdowns = document.getElementsByClassName("dropdown-content1");
       var i;
       for (i = 0; i < dropdowns.length; i++) {
@@ -843,9 +862,9 @@
         if (openDropdown.classList.contains('show1')) {
           openDropdown.classList.remove('show1');
         }
-      }
-    }
-  }
+      } 
+    } 
+  });
 
   $(window).resize(function() {
     if(window.innerWidth>800) {
@@ -871,6 +890,9 @@
   });
 
   $(document).ready(function () {
+    $("#myDropdown1 > a").click(function(){
+      $("#myDropdown1").removeClass("show1");
+    });
     if(window.innerWidth>800) {
       var element = document.getElementsByClassName("btn-group-toggle");
       for (i = 0; i < element.length; i++) {
